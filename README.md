@@ -29,20 +29,27 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 ## Self-Study Questions
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
-
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+What is the difference between an adaptive website and a fully responsive website?
 
-1. What is the difference between an adaptive website and a fully responsive website?
+	An adaptive website has different layouts specifically for each screen size. A fully responsive website has relatively the same layout that has a “fluid” layout that works on a wide variety of screen sizes.
 
-2. Describe what it means to be mobile first vs desktop first.
+Describe what it means to be mobile first vs desktop first.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+	A mobile first means the website was designed for mobile in mind. It usually will use min-width to create tablet and desktop sizes.  Desktop first is the opposite, it was created for desktop/ laptop screens and uses either strictly max-width/ or a mix/ to create a tablet and mobile view.
 
-4. How would you describe preprocessing to someone new to CSS?
+What does font-size: 62.5% in the html tag do for us when using rem units?
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+	We use the font-size: 62.5% percent as it takes the normal font of a display (which is 16px) and uses 62.5% percent of that size to create a font of 10px. This becomes a lot easier to change sizes across your website using rem as 1rem = 10px.
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+How would you describe preprocessing to someone new to CSS?
+
+A way to organize and section your CSS, that goes into different files, and is easier to navigate for all developers.
+
+What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+	My favorite is nesting and that idea of importing code from other LESS files. It organizes the code a lot easier! The concept I struggle with the most would be regular mixins, only because I feel I would use a parametric mixin instead to cover more aspects of repetitive code.
+
 
 ## Project Set Up
 
